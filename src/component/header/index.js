@@ -1,10 +1,16 @@
 import React from 'react';
+import './style.scss';
+import Logo from '../../assets/logo.svg';
 
 
 const Header = (props) => {
     return(
         <header>
-            Header
+            <div className="wrap">
+                <div className="logo">
+                    <img src={Logo} alt="Logo" />
+                </div>
+            </div>
         </header>
     );
 }
