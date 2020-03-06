@@ -5,9 +5,9 @@ import Logo from '../../assets/logo.svg';
 
 const Header = (props) => {
     return(
-        <header>
-            <div className="wrap">
-                <div className="logo">
+        <header data-test='headerAttr'>
+            <div className="wrap" data-test="wrapperAttr">
+                <div className="logo" data-test="logoAttr">
                     <img src={Logo} alt="Logo" />
                 </div>
             </div>
